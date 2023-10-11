@@ -2,7 +2,9 @@
 
 //import sorting.QuickSort;
 
-import sorting.SelectionSort;
+//import sorting.SelectionSort;
+
+import sorting.MergeSort;
 
 public class SortingDemo {
     public static void main(String[] args){
@@ -13,7 +15,8 @@ public class SortingDemo {
         }
         //InsertionSort.sort(arr);
         //QuickSort.sort(arr);
-        SelectionSort.sort(arr);
+        //SelectionSort.sort(arr);
+        MergeSort.sort(arr);
         System.out.println("Sorted Array: ");
         for(int i: arr){
             System.out.println(i + " ");
