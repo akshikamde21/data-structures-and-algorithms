@@ -4,7 +4,9 @@
 
 //import sorting.SelectionSort;
 
-import sorting.MergeSort;
+//import sorting.MergeSort;
+
+import sorting.BubbleSort;
 
 public class SortingDemo {
     public static void main(String[] args){
@@ -16,7 +18,8 @@ public class SortingDemo {
         //InsertionSort.sort(arr);
         //QuickSort.sort(arr);
         //SelectionSort.sort(arr);
-        MergeSort.sort(arr);
+        //MergeSort.sort(arr);
+        BubbleSort.sort(arr);
         System.out.println("Sorted Array: ");
         for(int i: arr){
             System.out.println(i + " ");
